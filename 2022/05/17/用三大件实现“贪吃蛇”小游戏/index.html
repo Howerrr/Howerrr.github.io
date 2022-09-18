@@ -16,16 +16,16 @@
   <meta name="author" content="Hower Lin">
   <meta name="keywords" content="Hower">
   
-    <meta name="description" content="前言 作为一个前端小白，在b站学习完pink老师讲的动画原理之后，我脑中就有了写一个小游戏的想法。然后发现贪吃蛇好像还挺好实现的，然后就动手开始试着写了一下。 点击试玩⚡ 实现过程 用 HTML 和 CSS 构建场景和物件 HTML 部分 我的做法就是让整个页面由div标签构成，场地是个div，目标物是个div，蛇头和蛇身都是由一个个的div构成。我加入了障碍物的设定，就是每过一段时间就会在地图上">
+    <meta name="description" content="为何置顶  这是我的第一篇博客，记载着我自学前端之后根据自己的一瞬想法而写成的‘东西’。虽然它很粗糙，但是它承载着我对前端的无限想象，是我前端之路的一个重要里程碑。 时刻回望过去，继续憧憬未来。 念念不忘，不求回响。  前言 作为一个前端小白，在b站学习完pink老师讲的动画原理之后，我脑中就有了写一个小游戏的想法。然后发现贪吃蛇好像还挺好实现的，然后就动手开始试着写了一下。  点击试玩⚡ 实现过">
 <meta property="og:type" content="article">
 <meta property="og:title" content="用三大件实现“贪吃蛇”小游戏">
 <meta property="og:url" content="http://hower454516977.github.io/2022/05/17/%E7%94%A8%E4%B8%89%E5%A4%A7%E4%BB%B6%E5%AE%9E%E7%8E%B0%E2%80%9C%E8%B4%AA%E5%90%83%E8%9B%87%E2%80%9D%E5%B0%8F%E6%B8%B8%E6%88%8F/index.html">
 <meta property="og:site_name" content="Hower&#39;s Blog">
-<meta property="og:description" content="前言 作为一个前端小白，在b站学习完pink老师讲的动画原理之后，我脑中就有了写一个小游戏的想法。然后发现贪吃蛇好像还挺好实现的，然后就动手开始试着写了一下。 点击试玩⚡ 实现过程 用 HTML 和 CSS 构建场景和物件 HTML 部分 我的做法就是让整个页面由div标签构成，场地是个div，目标物是个div，蛇头和蛇身都是由一个个的div构成。我加入了障碍物的设定，就是每过一段时间就会在地图上">
+<meta property="og:description" content="为何置顶  这是我的第一篇博客，记载着我自学前端之后根据自己的一瞬想法而写成的‘东西’。虽然它很粗糙，但是它承载着我对前端的无限想象，是我前端之路的一个重要里程碑。 时刻回望过去，继续憧憬未来。 念念不忘，不求回响。  前言 作为一个前端小白，在b站学习完pink老师讲的动画原理之后，我脑中就有了写一个小游戏的想法。然后发现贪吃蛇好像还挺好实现的，然后就动手开始试着写了一下。  点击试玩⚡ 实现过">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://hower454516977.github.io/img/snake.png">
 <meta property="article:published_time" content="2022-05-17T09:04:46.000Z">
-<meta property="article:modified_time" content="2022-08-13T02:12:24.346Z">
+<meta property="article:modified_time" content="2022-09-17T09:10:32.457Z">
 <meta property="article:author" content="Hower Lin">
 <meta property="article:tag" content="JavaScript">
 <meta name="twitter:card" content="summary_large_image">
@@ -250,7 +250,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          8.9k 字
+          9k 字
         
       </span>
     
@@ -261,7 +261,7 @@
         
         
         
-          75 分钟
+          76 分钟
         
       </span>
     
@@ -312,9 +312,16 @@
             
               <div class="markdown-body">
                 
-                <h2 id="前言-v8">前言</h2>
-<p>作为一个前端小白，在b站学习完pink老师讲的动画原理之后，我脑中就有了写一个小游戏的想法。然后发现贪吃蛇好像还挺好实现的，然后就动手开始试着写了一下。<br>
-<a href="https://hower454516977.github.io/Snake">点击试玩⚡</a></p>
+                <p><strong>为何置顶</strong></p>
+<blockquote>
+<p>这是我的第一篇博客，记载着我自学前端之后根据自己的一瞬想法而写成的‘东西’。虽然它很粗糙，但是它承载着我对前端的无限想象，是我前端之路的一个重要里程碑。<br>
+<strong>时刻回望过去，继续憧憬未来。</strong><br>
+<strong>念念不忘，不求回响。</strong></p>
+</blockquote>
+<h2 id="前言-v9">前言</h2>
+<p>作为一个前端小白，在b站学习完pink老师讲的动画原理之后，我脑中就有了写一个小游戏的想法。然后发现贪吃蛇好像还挺好实现的，然后就动手开始试着写了一下。</p>
+<p><img src="/img/snake.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<p><a href="https://hower454516977.github.io/Snake">点击试玩⚡</a></p>
 <h2 id="实现过程">实现过程</h2>
 <h3 id="用-HTML-和-CSS-构建场景和物件">用 HTML 和 CSS 构建场景和物件</h3>
 <h4 id="HTML-部分">HTML 部分</h4>
@@ -360,7 +367,7 @@
 <p>document.addEventListener(‘keydown’, function (e) {…})<br>
 和remind.addEventListener(‘click’, function () {alert(‘…’);})就不贴出来啦</p>
 <p>完整的 JavaScript 的代码可以去<a target="_blank" rel="noopener" href="https://github.com/Hower454516977/Snake"> 我的 Github </a>取。</p>
-<h2 id="总结-v4">总结</h2>
+<h2 id="总结-v5">总结</h2>
 <p>对于一个初学者来说，能自己通过思考，结合之前学过的知识来完成一个小游戏，还是蛮有成就感的事情啊。如果有初学者也想自己动手写一下这个小游戏的话，可以参考我的思路来试着完成。我的代码肯定还有很多需要优化的地方，恳请大佬们提出意见和指导 QWQ</p>
 
                 
@@ -426,7 +433,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>更新于</div>
-          <div>2022年8月13日</div>
+          <div>2022年9月17日</div>
         </div>
       
       <div class="license-meta-item">
